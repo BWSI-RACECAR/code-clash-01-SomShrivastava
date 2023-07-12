@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "racecar",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "314156",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "dad",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "germanium",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "3145413",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "exacto",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "@!^&^!@",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "level",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "rotavator",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "rotor",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
