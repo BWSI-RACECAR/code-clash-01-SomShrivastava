@@ -31,7 +31,7 @@ class Solution:
         if len(s) > 6:
             new_string = ""
             for index in range(len(s)):
-                new_string += s[len(s) - index]
+                new_string += s[len(s) - 1 - index]
             if new_string == s:
                 return True
             else:
@@ -40,12 +40,10 @@ class Solution:
             return False
             #type s: string
             #return type: boolean
-            
-            #TODO: Write code below to return a boolean value with the solution to the prompt.
-            pass
 
 def main():
     tc1 = Solution()
+    tc1.isPalindrome("1234321")
     inpyt = input()
     # Write code below to complete prompt
     print(tc1.isPalindrome(inpyt))
